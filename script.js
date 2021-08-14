@@ -22,7 +22,7 @@ function fetchPet(pet){
         .then(res => {
             setTimeout(() => {
                 load.style.filter = `opacity(0)`
-            },500)
+            },750)
         })
         .catch(err => {
             console.error(err)
@@ -30,7 +30,6 @@ function fetchPet(pet){
 
         load.style.transform = `rotate(${spin}deg)`
         load.style.filter = `opacity(1)`
-        // setTimeout(() => {load.style.filter = `opacity(0)`},800)
         spin += 360
 }
 
