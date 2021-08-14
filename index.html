@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PET photos</title>
+    <link rel="stylesheet" href="styles/style.min.css" />
+  </head>
+  <body>
+    <header>
+      <img src="img/Logo.png" class="logo" />
+    </header>
+    <div class="bg">
+      <img src="img/BackgroundPaw.png">
+    </div>
+    <div class="bg2">
+      <img src="img/BackgroundPaw.png">
+    </div>
+    <main class="main">
+      <div class="info">Clique em "Cão" ou "Gato" para gerar uma imagem de um dos respectivos animais.</div>
+      <div class="buttons">
+        <button onclick='fetchPet(cat)' class="btn">
+          <img src="/img/image.svg" class="icon" />
+          Gato
+        </button>
+        <button onclick='fetchPet(dog)' class="btn">
+          <img src="/img/image.svg" class="icon" />
+          Cão
+        </button>
+        <button onclick='goTo()' class="btn">
+          <img src="/img/external.svg" class="icon" />
+          Ver Original
+        </button>
+      </div>
+      <div class="load-wrapper">
+        <img src="img/sync.svg" class="load icon" />
+      </div>
+      <div class="picture">
+        <img
+          src=""
+        />
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

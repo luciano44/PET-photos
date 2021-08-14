@@ -1,0 +1,12 @@
+{
+  "name": "dog-photos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch styles/style.scss styles/style.min.css --style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
